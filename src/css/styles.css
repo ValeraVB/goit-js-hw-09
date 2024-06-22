@@ -32,3 +32,55 @@ body {
 .gallery-image:hover {
   transform: scale(1.05);
 }
+
+.feedback-form {
+  max-width: 488px;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.feedback-form input[type='email'],
+.feedback-form textarea {
+  width: 360px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.feedback-form button {
+  display: block;
+  /* width: 100%; */
+  padding: 8px 16px;
+  margin-top: 10px;
+  background-color: #4e75ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.feedback-form button:hover {
+  background-color: #0056b3;
+}
+
+.feedback-form button:focus {
+  outline: none;
+}
+
+.feedback-form button:active {
+  background-color: #0056b3;
+  transform: translateY(1px);
+}
